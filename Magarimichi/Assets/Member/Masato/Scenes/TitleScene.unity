@@ -628,7 +628,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -812,7 +812,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 920000821}
         m_TargetAssemblyTypeName: Button, Assembly-CSharp
-        m_MethodName: Test
+        m_MethodName: SceneMoving
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1133,9 +1133,7 @@ MonoBehaviour:
   SceneNumber:
   - TitleScene
   - StageSelect
-  - Main1
-  - Main2
-  - Main3
+  - MainScene
   - ResultScene
 --- !u!1 &1695439913
 GameObject:
@@ -1251,9 +1249,15 @@ MonoBehaviour:
   _bgmMute: 0
   _seMute: 0
   _bgmClips:
-  - {fileID: 8300000, guid: 53e109b33bd7267468206796aff9191e, type: 3}
-  - {fileID: 8300000, guid: 53e109b33bd7267468206796aff9191e, type: 3}
-  _seClips: []
+  - {fileID: 8300000, guid: 9090ffba75769364cb77d5deeccef9b1, type: 3}
+  - {fileID: 8300000, guid: 7102782823391934c875dbf05ca22210, type: 3}
+  _seClips:
+  - {fileID: 8300000, guid: a23a6c0c324f6854f8196a5f49ab2167, type: 3}
+  - {fileID: 8300000, guid: ae6893fda71893344bd2373c366948a1, type: 3}
+  - {fileID: 8300000, guid: 217c12b8d63cc2e4eb1ff2adfdb8a039, type: 3}
+  - {fileID: 8300000, guid: b368c6418ac75bd4d9691656bbee602e, type: 3}
+  - {fileID: 8300000, guid: 60e28febd252c0e4ba7e1c99f19b8cf6, type: 3}
+  - {fileID: 8300000, guid: 1013bf91be88cf4468e5cbb8110d42c7, type: 3}
   _bgmSource: {fileID: 774421452}
   _seSource: {fileID: 762690958}
 --- !u!4 &1733027967

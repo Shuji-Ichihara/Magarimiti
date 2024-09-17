@@ -251,8 +251,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5eae2e3b3a30594ba57078bee859d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mapChip: {fileID: 0}
+  _button: {fileID: 0}
+  _mapChip: {fileID: 5621063505436132772, guid: 25a8ec29d34985b4484d6ed3086d3e1a, type: 3}
+  _player: {fileID: 782033215564306724, guid: 4bf3c8382cd2f26499928249b72f2843, type: 3}
   _key: {fileID: 6185063958907375800, guid: 63d1c793acf5b4146a6720332e9f079f, type: 3}
   _lock: {fileID: 4970301201484273161, guid: 0c3352b5c61c8dd4e8ee2963f14fc046, type: 3}
-  _mapChipSprites: []
-  _mapWidthAndHeight: {x: 3, y: 3}
+  _mapChipSprites:
+  - {fileID: 21300000, guid: 4d9213e489c6c3446b3d6ed95d750eb0, type: 3}
+  - {fileID: 21300000, guid: 996f7fb910c66ab4b9b727d163d81e48, type: 3}
+  - {fileID: 21300000, guid: cc182ef37f88cdd4cb49db7c732fee2b, type: 3}
+  - {fileID: 21300000, guid: ccb6e463cfdb00a44a149770bd0814e5, type: 3}
+  - {fileID: 21300000, guid: 68f16ac84d489f64ba9eb98e0414b92b, type: 3}
+  - {fileID: 21300000, guid: 95747238f07776f4da0776eb0d68c92d, type: 3}
+  - {fileID: 21300000, guid: 5fa4e19c4126523469d7dcbb9ab9fbf6, type: 3}
+  - {fileID: 21300000, guid: 7bf99837b0b49c344bd943d91fcdc28b, type: 3}
+  - {fileID: 21300000, guid: 8c8d59e8fad3e794cb452fcffcc07aab, type: 3}
+  - {fileID: 21300000, guid: 02053470ac3f16641a83facc90b3825c, type: 3}
+  _startMapChipSprite: {fileID: 21300000, guid: 68ca34f62bbebd948ab9d7f9f03818de, type: 3}
+  _goalMapChipSprite: {fileID: 21300000, guid: dab88eade22769542acb906227137bb0, type: 3}
+  _keyMapChipSprite: {fileID: 21300000, guid: 61f167d1dc8d26847ad8d7ce40c7d0d9, type: 3}
+  _lockMapChipSprite: {fileID: 21300000, guid: 02053470ac3f16641a83facc90b3825c, type: 3}
+  _mapWidthAndHeight: {x: 5, y: 5}
+  _activeMaterial: {fileID: 2100000, guid: 655e4efdc0d95cb40b796ec257977fde, type: 2}
+  _defaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}

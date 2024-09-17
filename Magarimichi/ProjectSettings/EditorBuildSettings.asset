@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Member/itou/MainScene.unity
     guid: a97bf9446023de2448bb4b5192842bcf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Member/Yuta/Scene/Main2.unity
     guid: 022038fb12a3448409765490aa88632b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Member/Yuta/Scene/Main3.unity
     guid: d52956f421542304798c71488fd6a7d6
   - enabled: 1

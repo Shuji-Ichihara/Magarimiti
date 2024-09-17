@@ -11,7 +11,7 @@ public class Fade_Controller : MonoBehaviour
     public static bool IsFadeOut = false;
 
     //透明度が変わるスピードを管理
-    private float fadeSpeed = 0.001f;
+    private float fadeSpeed = 0.01f;
     //パネルの色、不透明度を管理
     private float red, green, blue, alfa;
 
